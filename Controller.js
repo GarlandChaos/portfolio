@@ -16,7 +16,7 @@ app.config(function($routeProvider) {
 	  templateUrl : "Videos.html"
 	})
 	.when("/GuideAliens", {
-	  templateUrl : "GuideAliens.html"
+	  templateUrl : "GuiaAliens.html"
 	})
 	.when("/InfograficoAmigo", {
 	  templateUrl : "InfograficoAmigo.html"
