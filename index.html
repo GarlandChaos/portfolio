@@ -13,32 +13,31 @@
     </head>
 
     <body class="#212121 grey darken-4">
-            <div class="containerFlex #6a1b9a purple darken-3">
-                    <div class="itemFlex">
-                        <!-- <a href="#!/"><img class="logo-img" src="logo_test.png"></img></a> -->
-                        <p id="nameLogo">Bernardo Braga <p style="font-famyly:Roboto">Designer and Game Developer</p></p>
-                        <!-- <p>Designer and Game Developer</p> -->
-                    </div>                  
-                </div>
-                            <nav class="nav-extended ">
+        <!-- #6a1b9a purple darken-3 -->
+        <div class="containerNav">
+            <div class="itemNav">
+                <a href="#!/"><p id="nameLogo">Bernardo Braga <p>Designer and Game Developer</p></p></a>
+            </div>                  
+        </div>
                             
-        
-                            </nav>
-                            <nav class="#7b1fa2 purple darken-2">
-                            <div class="nav-wrapper container">
-                                    <ul class="hide-on-med-and-down">
-                                            <li><a href="#!/Design">Design</a></li>
-                                            <li><a href="#!/Programming">Programming</a></li>
-                                        </ul>
-                            </div>
-                            </nav>
-        <br>             
+        <!-- #7b1fa2 purple darken-2 -->
+        <nav id="subNav">
+            <div class="nav-wrapper container">
+                <ul class="hide-on-med-and-down">
+                    <li><a href="#!/">Home</a></li>                                            
+                    <li><a href="#!/Design">Design</a></li>
+                    <li><a href="#!/Programming">Programming</a></li>
+                    <li><a href="#!/Programming">Contact</a></li>                
+                </ul>
+            </div>
+        </nav>
+
+        <br>
+
         <div ng-app="myApp">
             <div ng-view>
                     
             </div> 
         </div>
-    
-
     </body>
 </html> 
