@@ -1,0 +1,217 @@
+@font-face {
+
+    font-family: "Arcade";
+    src: url('fonts/Arcade.ttf')  format('truetype');
+}
+
+@font-face {
+    
+    font-family: "Montserrat";
+    src: url('fonts/Montserrat-Regular.ttf')  format('truetype');
+}
+
+html, body {
+    box-sizing: border-box;
+}
+
+#nameLogo {
+
+    /* font-family: "Arcade"; */
+    font-family: Montserrat;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: -30px; 
+    margin-left: -3px;
+}
+
+.sectionTitle {
+    font-size: 2rem;
+    margin: 0 0;
+    color: white;
+}
+
+p {
+
+    color:white;
+}
+
+p a {
+    /* color: red; */
+    text-shadow:
+    1px 1px 0 #000;
+}
+
+p a:hover{
+    color: #7b1fa2;
+}
+
+.containerNav {
+    
+    background-color: #592973;    
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;    
+    width: 100%;
+}
+
+.itemNav {
+
+    margin-left: 15px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#subNav {
+
+    background-color: #854BA2;
+}
+
+/* #imgCreche {
+    
+    width: 50%;
+    height: auto;
+    margin: 20px;
+} */
+
+#imgProfile {
+
+    width:15%; /* you can use % */
+    height: 15%;
+    margin: 20px;
+}
+
+.containerFlex {
+
+    display: -webkit-flex;
+    display: flex;
+    /* flex-flow: row wrap; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: center;   */
+    width: 100%;
+    background-color: #854BA2;
+}
+
+h1 {
+    color: white;
+    text-align:center;
+}
+
+.itemFlex{
+
+    display: -webkit-flex;    
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* margin: 2rem; */
+    margin: 0.5rem 0;
+    padding: 0 2rem; 
+    /* margin-bottom: 20px;  */
+    width: 100%;
+    height: 100%; 
+    /* background-color: red; */
+    color: white;
+}
+
+.itemFlexContent {
+    
+    display: -webkit-flex;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem 0;    
+}
+
+.itemFlexContent iframe{
+    width: 560px;
+    height: 315px;
+}
+
+  
+/* Materialize modifications*/
+
+nav {
+    height: 300px;
+    line-height: 300px;
+}
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    height: 300px;
+    line-height: 300px;
+}
+
+nav .button-collapse i {
+    height: 300px;
+    line-height: 300px;
+}
+#sokoban {
+    width: 50%;
+}
+
+@media screen and (max-width: 900px){
+    #sokoban {
+        width: 100%;
+    }
+    .itemFlexContent iframe{
+        width: 100%;
+        height: auto;
+    }
+    #nameLogo {
+        
+        font-family: Montserrat;
+        font-size: 40px;
+        margin-top: 0px;
+        margin-bottom: -25px; 
+        margin-left: -3px;
+    }
+
+    #imgProfile {
+        
+        width:80%; /* you can use % */
+        height: auto;
+        /* margin: 20px; */
+    }
+}
+
+@media only screen and (min-width: 601px){
+    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+        height: 300px;
+        line-height: 300px;
+    }
+}
+
+#linkedin {
+    color: white;
+}
+
+#linkedin:hover  {
+    color: blue;
+}
+
+#linkedinIcon {
+    margin-top: 1rem;
+}
+
+.icon{
+    display: flex; 
+    align-items: left; 
+    align-items: center;
+}
+
+#contactCard {
+    display: flex; 
+    align-items: left; 
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.card-image {
+    /* width: 950px; */
+    /* height: 500px; */
+}
+
+.card {
+    background-color: #854BA2 !important;    
+}
