@@ -1,54 +1,59 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">             
-        <title>Bernardo Braga Portfolio</title>
-        <link rel="stylesheet" type="text/css" href="./css/style.css" media="screen"/>
-        <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
-        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"> -->
 
-        <!--Import Google Icon Font-->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <!--Import materialize.css-->
-        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+<head>
+    <meta charset="UTF-8">
+    <title>Bernardo Braga Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" media="screen" />
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"> -->
 
-        <!--Let browser know website is optimized for mobile-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
-        <script src="angular/Controller.js"></script>    
-        
-    </head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
 
-    <body class="#212121 grey darken-4">
-        <!-- #6a1b9a purple darken-3 -->
-        <div class="containerNav">
-            <div class="itemNav">
-                <a href="#!/"><p id="nameLogo">Bernardo Braga <p>Game Developer</p></p></a>
-            </div>                  
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+    <script src="angular/Controller.js"></script>
+
+</head>
+
+<body class="#212121 grey darken-4">
+    <!-- #6a1b9a purple darken-3 -->
+    <div class="containerNav">
+        <div class="itemNav">
+            <a href="#!/">
+                <p id="nameLogo">Bernardo Braga <p>Game Developer</p>
+                </p>
+            </a>
         </div>
-                            
-        <!-- #7b1fa2 purple darken-2 -->
-        <nav id="subNav">
-            <div class="nav-wrapper">
-                <ul>
-                    <li><a href="#!/">Home</a></li>                                            
-                    <li><a href="#!/Games">Games</a></li>
-                    <li><a href="#!/Contact">Contact</a></li>                
-                </ul>
-            </div>
-        </nav>
+    </div>
 
-        <br>
-
-        <div ng-app="myApp">
-            <div ng-view>
-                    
-            </div> 
+    <!-- #7b1fa2 purple darken-2 -->
+    <nav id="subNav">
+        <div class="nav-wrapper">
+            <ul>
+                <li><a href="#!/">Home</a></li>
+                <li><a href="#!/Games">Games and Projects</a></li>
+                <li><a href="#!/Contact">Contact</a></li>
+            </ul>
         </div>
+    </nav>
 
-        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-        <script type="text/javascript" src="./js/materialize.min.js"></script>
-    </body>
-</html> 
+    <br>
+
+    <div ng-app="myApp">
+        <div ng-view>
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="./js/materialize.min.js"></script>
+</body>
+
+</html>
