@@ -1,16 +1,17 @@
 @font-face {
 
     font-family: "Arcade";
-    src: url('fonts/Arcade.ttf')  format('truetype');
+    src: url('fonts/Arcade.ttf') format('truetype');
 }
 
 @font-face {
-    
+
     font-family: "Montserrat";
-    src: url('fonts/Montserrat-Regular.ttf')  format('truetype');
+    src: url('fonts/Montserrat-Regular.ttf') format('truetype');
 }
 
-html, body {
+html,
+body {
     box-sizing: border-box;
 }
 
@@ -20,7 +21,7 @@ html, body {
     font-family: Montserrat;
     font-size: 50px;
     margin-top: 0px;
-    margin-bottom: -30px; 
+    margin-bottom: -30px;
     margin-left: -3px;
 }
 
@@ -32,26 +33,26 @@ html, body {
 
 p {
 
-    color:white;
+    color: white;
 }
 
 p a {
     /* color: red; */
     text-shadow:
-    1px 1px 0 #000;
+        1px 1px 0 #000;
 }
 
-p a:hover{
+p a:hover {
     color: #7b1fa2;
 }
 
 .containerNav {
-    
-    background-color: #592973;    
+
+    background-color: #592973;
     display: -webkit-flex;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;    
+    justify-content: flex-start;
     width: 100%;
 }
 
@@ -76,7 +77,8 @@ p a:hover{
 
 #imgProfile {
 
-    width:15%; /* you can use % */
+    width: 15%;
+    /* you can use % */
     height: 15%;
     margin: 20px;
 }
@@ -96,40 +98,40 @@ p a:hover{
 
 h1 {
     color: white;
-    text-align:center;
+    text-align: center;
 }
 
-.itemFlex{
+.itemFlex {
 
-    display: -webkit-flex;    
+    display: -webkit-flex;
     display: flex;
     align-items: center;
     /* justify-content: center; */
     /* margin: 2rem; */
     margin: 0.5rem 0;
-    padding: 0 2rem; 
+    padding: 0 2rem;
     /* margin-bottom: 20px;  */
     width: 100%;
-    height: 100%; 
+    height: 100%;
     /* background-color: red; */
     color: white;
 }
 
 .itemFlexContent {
-    
-    display: -webkit-flex;    
+
+    display: -webkit-flex;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0.5rem 0;    
+    margin: 0.5rem 0;
 }
 
-.itemFlexContent iframe{
+.itemFlexContent iframe {
     width: 560px;
     height: 315px;
 }
 
-  
+
 /* Materialize modifications*/
 
 nav {
@@ -137,7 +139,10 @@ nav {
     line-height: 300px;
 }
 
-nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+nav i,
+nav [class^="mdi-"],
+nav [class*="mdi-"],
+nav i.material-icons {
     height: 300px;
     line-height: 300px;
 }
@@ -146,37 +151,45 @@ nav .button-collapse i {
     height: 300px;
     line-height: 300px;
 }
+
 #sokoban {
     width: 50%;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) {
     #sokoban {
         width: 100%;
     }
-    .itemFlexContent iframe{
+
+    .itemFlexContent iframe {
         width: 100%;
         height: auto;
     }
+
     #nameLogo {
-        
+
         font-family: Montserrat;
         font-size: 40px;
         margin-top: 0px;
-        margin-bottom: -25px; 
+        margin-bottom: -25px;
         margin-left: -3px;
     }
 
     #imgProfile {
-        
-        width:80%; /* you can use % */
+
+        width: 80%;
+        /* you can use % */
         height: auto;
         /* margin: 20px; */
     }
 }
 
-@media only screen and (min-width: 601px){
-    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+@media only screen and (min-width: 601px) {
+
+    nav,
+    nav .nav-wrapper i,
+    nav a.button-collapse,
+    nav a.button-collapse i {
         height: 300px;
         line-height: 300px;
     }
@@ -186,7 +199,7 @@ nav .button-collapse i {
     color: white;
 }
 
-#linkedin:hover  {
+#linkedin:hover {
     color: blue;
 }
 
@@ -194,15 +207,15 @@ nav .button-collapse i {
     margin-top: 1rem;
 }
 
-.icon{
-    display: flex; 
-    align-items: left; 
+.icon {
+    display: flex;
+    align-items: left;
     align-items: center;
 }
 
 #contactCard {
-    display: flex; 
-    align-items: left; 
+    display: flex;
+    align-items: left;
     flex-direction: column;
     margin: 1rem;
 }
@@ -213,5 +226,152 @@ nav .button-collapse i {
 }
 
 .card {
-    background-color: #854BA2 !important;    
+    background-color: #854BA2 !important;
+}
+
+@media screen and (orientation:portrait) {
+    /* .carousel {
+        overflow: hidden;
+        position: relative;
+        width: 100% !important;
+        height: 400px !important;
+        -webkit-perspective: 500px;
+        perspective: 500px;
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        -webkit-transform-origin: 0% 50%;
+        transform-origin: 0% 50%;
+    }
+
+    .carousel .carousel-item {
+        visibility: hidden;
+        aspect-ratio: auto !important;
+        width: auto !important;
+        height: 80% !important;
+        position: absolute;
+        top: 0;
+        left: 0;
+    } */
+
+    #carousel-portrait {
+        margin-top: 50px;
+        overflow: hidden;
+        position: relative;
+        width: 100% !important;
+        height: 500px !important;
+        -webkit-perspective: 500px;
+        perspective: 500px;
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        -webkit-transform-origin: 0% 50%;
+        transform-origin: 0% 50%;
+    }
+
+    .carousel-item-portrait {
+        aspect-ratio: auto !important;
+        width: auto !important;
+        height: 100% !important;
+    }
+
+    #carousel-landscape {
+        overflow: hidden;
+        position: relative;
+        width: 100% !important;
+        height: 400px !important;
+        -webkit-perspective: 500px;
+        perspective: 500px;
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        -webkit-transform-origin: 0% 50%;
+        transform-origin: 0% 50%;
+    }
+
+    .carousel-item-landscape {
+        aspect-ratio: auto !important;
+        width: 90% !important;
+        height: auto !important;
+    }
+
+    .gameHeaderImage {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (orientation:landscape) {
+    /* .carousel {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        height: 500px !important;
+        -webkit-perspective: 500px;
+        perspective: 500px;
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        -webkit-transform-origin: 0% 50%;
+        transform-origin: 0% 50%;
+    }
+
+    .carousel .carousel-item {
+        aspect-ratio: auto !important;
+        width: auto !important;
+        height: 100% !important;
+    } */
+
+    /* aa */
+
+    #carousel-portrait {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        overflow: hidden;
+        position: relative;
+        width: 100% !important;
+        height: 800px !important;
+        -webkit-perspective: 500px;
+        perspective: 500px;
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        -webkit-transform-origin: 0% 50%;
+        transform-origin: 0% 50%;
+    }
+
+    .carousel-item-portrait {
+        aspect-ratio: auto !important;
+        width: auto !important;
+        height: 100% !important;
+    }
+
+    #carousel-landscape {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        overflow: hidden;
+        position: relative;
+        width: 100% !important;
+        height: 600px !important;
+        -webkit-perspective: 500px;
+        perspective: 500px;
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        -webkit-transform-origin: 0% 50%;
+        transform-origin: 0% 50%;
+    }
+
+    .carousel-item-landscape {
+        aspect-ratio: auto !important;
+        width: 70% !important;
+        height: auto !important;
+    }
+
+    .gameHeaderImage {
+        display: flex;
+        justify-content: center;
+        width: 40%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
 }
