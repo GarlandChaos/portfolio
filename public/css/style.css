@@ -134,7 +134,7 @@ h1 {
 
 /* Materialize modifications*/
 
-nav {
+/* nav {
     height: 300px;
     line-height: 300px;
 }
@@ -150,7 +150,7 @@ nav i.material-icons {
 nav .button-collapse i {
     height: 300px;
     line-height: 300px;
-}
+} */
 
 #sokoban {
     width: 50%;
@@ -184,7 +184,7 @@ nav .button-collapse i {
     }
 }
 
-@media only screen and (min-width: 601px) {
+/* @media only screen and (min-width: 601px) {
 
     nav,
     nav .nav-wrapper i,
@@ -193,7 +193,7 @@ nav .button-collapse i {
         height: 300px;
         line-height: 300px;
     }
-}
+} */
 
 #linkedin {
     color: white;
