@@ -72,6 +72,15 @@ app.config(function ($routeProvider) {
 		.when("/Dananeer", {
 			templateUrl: "views/Dananeer.html"
 		})
+		.when("/CryptRaider", {
+			templateUrl: "views/CryptRaider.html"
+		})
+		.when("/ObstacleAssault", {
+			templateUrl: "views/ObstacleAssault.html"
+		})
+		.when("/WarehouseWreckage", {
+			templateUrl: "views/WarehouseWreckage.html"
+		})
 	// .when("/Contact", {
 	// 	templateUrl: "views/Contact.html"
 	// });
