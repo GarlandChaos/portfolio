@@ -81,6 +81,9 @@ app.config(function ($routeProvider) {
 		.when("/WarehouseWreckage", {
 			templateUrl: "views/WarehouseWreckage.html"
 		})
+		.when("/DragonDealer", {
+			templateUrl: "views/DragonDealer.html"
+		})
 	// .when("/Contact", {
 	// 	templateUrl: "views/Contact.html"
 	// });
